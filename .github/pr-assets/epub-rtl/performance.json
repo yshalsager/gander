@@ -1,0 +1,53 @@
+{
+  "method": "Median of 7 warmed runs per version; alternating versions; fresh browser contexts. Desktop headless Chromium, 412x915 viewport. CPU = instrumented synchronous package parsing + flat TOC extraction + TOC DOM construction, not whole opening CPU. Open = navigation start to chapter visible. No mobile CPU throttling.",
+  "results": [
+    {
+      "entries": 30,
+      "direction": "explicit RTL",
+      "HEAD": {
+        "open": 105.4,
+        "cpu": 1.4
+      },
+      "current": {
+        "open": 90.2,
+        "cpu": 1.4
+      }
+    },
+    {
+      "entries": 2000,
+      "direction": "explicit RTL",
+      "HEAD": {
+        "open": 117.3,
+        "cpu": 9.8
+      },
+      "current": {
+        "open": 118.4,
+        "cpu": 13.3
+      }
+    },
+    {
+      "entries": 2000,
+      "direction": "shared auto",
+      "HEAD": {
+        "open": 123.1,
+        "cpu": 8.3
+      },
+      "current": {
+        "open": 146.7,
+        "cpu": 31.4
+      }
+    },
+    {
+      "entries": 2000,
+      "direction": "per-entry auto",
+      "HEAD": {
+        "open": 113,
+        "cpu": 9.3
+      },
+      "current": {
+        "open": 122.4,
+        "cpu": 26.1
+      }
+    }
+  ]
+}

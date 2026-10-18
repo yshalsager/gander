@@ -1,0 +1,672 @@
+{
+  "baseline": "8f60e20ea0b3defffc2ae89dd49bb36c9f09a5ff",
+  "implementation": "File-level native dir=auto for txt/log/nfo/extensionless files; unicode-bidi:isolate. Original text nodes and paging preserved. No paragraph spans.",
+  "browser": "153.0.8010.12",
+  "runs_per_version": 3,
+  "warmup_pairs_per_case": 1,
+  "viewport": {
+    "width": 412,
+    "height": 660
+  },
+  "method": "Alternating order, new browser context each sample. Identical instrumentation around DOM insertion and forced layout. Operation includes read/decode and two RAFs for a paint opportunity; navigation also includes assets/startup. No CPU throttling. Text equality asserted each page. Desktop only; not Android.",
+  "cases": {
+    "small_arabic": {
+      "bytes": 4680,
+      "before": [
+        {
+          "open": {
+            "insert_ms": 0.10000014305114746,
+            "layout_ms": 14.199999809265137,
+            "dom_layout_ms": 14.299999952316284,
+            "paragraphs": 0,
+            "height": 1198,
+            "operation_ms": 22.700000047683716,
+            "navigation_ms": 45.59999990463257
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.10000014305114746,
+            "layout_ms": 14.199999809265137,
+            "dom_layout_ms": 14.299999952316284,
+            "paragraphs": 0,
+            "height": 1198,
+            "operation_ms": 32.700000047683716,
+            "navigation_ms": 55.90000009536743
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 15.099999904632568,
+            "dom_layout_ms": 15.199999809265137,
+            "paragraphs": 0,
+            "height": 1198,
+            "operation_ms": 30.700000047683716,
+            "navigation_ms": 55.799999952316284
+          }
+        }
+      ],
+      "after": [
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 14,
+            "dom_layout_ms": 14.099999904632568,
+            "paragraphs": 0,
+            "height": 1198,
+            "operation_ms": 32.80000019073486,
+            "navigation_ms": 56.60000014305115
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.20000004768371582,
+            "layout_ms": 14.100000143051147,
+            "dom_layout_ms": 14.300000190734863,
+            "paragraphs": 0,
+            "height": 1198,
+            "operation_ms": 33.700000047683716,
+            "navigation_ms": 55.90000009536743
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 16.699999809265137,
+            "dom_layout_ms": 16.699999809265137,
+            "paragraphs": 0,
+            "height": 1198,
+            "operation_ms": 32.59999990463257,
+            "navigation_ms": 56.09999990463257
+          }
+        }
+      ],
+      "open_medians": {
+        "before": {
+          "dom_layout_ms": 14.3,
+          "operation_ms": 30.7,
+          "navigation_ms": 55.8,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 14.3,
+          "operation_ms": 32.8,
+          "navigation_ms": 56.1,
+          "paragraphs": 0
+        }
+      }
+    },
+    "arabic_1mib": {
+      "bytes": 1048576,
+      "before": [
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 649.7999999523163,
+            "dom_layout_ms": 649.8999998569489,
+            "paragraphs": 0,
+            "height": 324605.5,
+            "operation_ms": 675.8000001907349,
+            "navigation_ms": 701.4000000953674
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 658.2000000476837,
+            "dom_layout_ms": 658.2000000476837,
+            "paragraphs": 0,
+            "height": 324605.5,
+            "operation_ms": 686.0999999046326,
+            "navigation_ms": 709.3999998569489
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 894,
+            "dom_layout_ms": 894.0999999046326,
+            "paragraphs": 0,
+            "height": 324605.5,
+            "operation_ms": 933.5999999046326,
+            "navigation_ms": 960
+          }
+        }
+      ],
+      "after": [
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 483,
+            "dom_layout_ms": 483.09999990463257,
+            "paragraphs": 0,
+            "height": 324605.5,
+            "operation_ms": 508.59999990463257,
+            "navigation_ms": 533.7999999523163
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 479.7000000476837,
+            "dom_layout_ms": 479.7000000476837,
+            "paragraphs": 0,
+            "height": 324605.5,
+            "operation_ms": 508,
+            "navigation_ms": 531.8999998569489
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.10000014305114746,
+            "layout_ms": 501.69999980926514,
+            "dom_layout_ms": 501.7999999523163,
+            "paragraphs": 0,
+            "height": 324605.5,
+            "operation_ms": 530.1000001430511,
+            "navigation_ms": 551.6000001430511
+          }
+        }
+      ],
+      "open_medians": {
+        "before": {
+          "dom_layout_ms": 658.2,
+          "operation_ms": 686.1,
+          "navigation_ms": 709.4,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 483.1,
+          "operation_ms": 508.6,
+          "navigation_ms": 533.8,
+          "paragraphs": 0
+        }
+      }
+    },
+    "english_5mib": {
+      "bytes": 5242880,
+      "before": [
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 510,
+            "dom_layout_ms": 510,
+            "paragraphs": 0,
+            "height": 3098090.5,
+            "operation_ms": 566.7999999523163,
+            "navigation_ms": 590.5
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 506.59999990463257,
+            "dom_layout_ms": 506.59999990463257,
+            "paragraphs": 0,
+            "height": 3098090.5,
+            "operation_ms": 562.8000001907349,
+            "navigation_ms": 588.9000000953674
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 506.60000014305115,
+            "dom_layout_ms": 506.7000000476837,
+            "paragraphs": 0,
+            "height": 3098090.5,
+            "operation_ms": 565.2999999523163,
+            "navigation_ms": 589.5
+          }
+        }
+      ],
+      "after": [
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 513.7000000476837,
+            "dom_layout_ms": 513.7999999523163,
+            "paragraphs": 0,
+            "height": 3098090.5,
+            "operation_ms": 576.6000001430511,
+            "navigation_ms": 601.6000001430511
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 510.09999990463257,
+            "dom_layout_ms": 510.09999990463257,
+            "paragraphs": 0,
+            "height": 3098090.5,
+            "operation_ms": 566.5,
+            "navigation_ms": 591.0999999046326
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 573.9000000953674,
+            "dom_layout_ms": 574,
+            "paragraphs": 0,
+            "height": 3098090.5,
+            "operation_ms": 641.8999998569489,
+            "navigation_ms": 690.3999998569489
+          }
+        }
+      ],
+      "open_medians": {
+        "before": {
+          "dom_layout_ms": 506.7,
+          "operation_ms": 565.3,
+          "navigation_ms": 589.5,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 513.8,
+          "operation_ms": 576.6,
+          "navigation_ms": 601.6,
+          "paragraphs": 0
+        }
+      }
+    },
+    "arabic_6mib_paged": {
+      "bytes": 6291456,
+      "before": [
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 10559.699999809265,
+            "dom_layout_ms": 10559.699999809265,
+            "paragraphs": 0,
+            "height": 1622837.5,
+            "operation_ms": 10633.700000047684,
+            "navigation_ms": 10672
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 11251.100000143051,
+            "dom_layout_ms": 11251.100000143051,
+            "paragraphs": 0,
+            "height": 1947395.5,
+            "operation_ms": 11281.099999904633,
+            "navigation_ms": 22486.099999904633
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.19999980926513672,
+            "layout_ms": 10582.400000095367,
+            "dom_layout_ms": 10582.599999904633,
+            "paragraphs": 0,
+            "height": 1622837.5,
+            "operation_ms": 10659.199999809265,
+            "navigation_ms": 10696.199999809265
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 11248.5,
+            "dom_layout_ms": 11248.5,
+            "paragraphs": 0,
+            "height": 1947395.5,
+            "operation_ms": 11275.700000047684,
+            "navigation_ms": 22500.5
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 10571.700000047684,
+            "dom_layout_ms": 10571.799999952316,
+            "paragraphs": 0,
+            "height": 1622837.5,
+            "operation_ms": 10659.200000047684,
+            "navigation_ms": 10697.800000190735
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 11742.5,
+            "dom_layout_ms": 11742.5,
+            "paragraphs": 0,
+            "height": 1947395.5,
+            "operation_ms": 11777.699999809265,
+            "navigation_ms": 23030.5
+          }
+        }
+      ],
+      "after": [
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 6358.800000190735,
+            "dom_layout_ms": 6358.900000095367,
+            "paragraphs": 0,
+            "height": 1622837.5,
+            "operation_ms": 6431.099999904633,
+            "navigation_ms": 6467.599999904633
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 5330.199999809265,
+            "dom_layout_ms": 5330.199999809265,
+            "paragraphs": 0,
+            "height": 1947395.5,
+            "operation_ms": 5359.599999904633,
+            "navigation_ms": 12331
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 6383.200000047684,
+            "dom_layout_ms": 6383.299999952316,
+            "paragraphs": 0,
+            "height": 1622837.5,
+            "operation_ms": 6469.599999904633,
+            "navigation_ms": 6510.299999952316
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 5250.299999952316,
+            "dom_layout_ms": 5250.299999952316,
+            "paragraphs": 0,
+            "height": 1947395.5,
+            "operation_ms": 5279.399999856949,
+            "navigation_ms": 12316.099999904633
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.10000014305114746,
+            "layout_ms": 6352.200000047684,
+            "dom_layout_ms": 6352.300000190735,
+            "paragraphs": 0,
+            "height": 1622837.5,
+            "operation_ms": 6430.100000143051,
+            "navigation_ms": 6467.600000143051
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 5293.800000190735,
+            "dom_layout_ms": 5293.800000190735,
+            "paragraphs": 0,
+            "height": 1947395.5,
+            "operation_ms": 5322.400000095367,
+            "navigation_ms": 12327.700000047684
+          }
+        }
+      ],
+      "open_medians": {
+        "before": {
+          "dom_layout_ms": 10571.8,
+          "operation_ms": 10659.2,
+          "navigation_ms": 10696.2,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 6358.9,
+          "operation_ms": 6431.1,
+          "navigation_ms": 6467.6,
+          "paragraphs": 0
+        }
+      },
+      "append_medians": {
+        "before": {
+          "dom_layout_ms": 11251.1,
+          "operation_ms": 11281.1,
+          "navigation_ms": 22500.5,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 5293.8,
+          "operation_ms": 5322.4,
+          "navigation_ms": 12327.7,
+          "paragraphs": 0
+        }
+      }
+    },
+    "unbroken_6mib_paged": {
+      "bytes": 6291456,
+      "before": [
+        {
+          "open": {
+            "insert_ms": 0.20000004768371582,
+            "layout_ms": 645.7000000476837,
+            "dom_layout_ms": 645.9000000953674,
+            "paragraphs": 0,
+            "height": 1706180.5,
+            "operation_ms": 696.2999999523163,
+            "navigation_ms": 720.2999999523163
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 587.5,
+            "dom_layout_ms": 587.5,
+            "paragraphs": 0,
+            "height": 2123461,
+            "operation_ms": 601.5,
+            "navigation_ms": 1490.7000000476837
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.10000014305114746,
+            "layout_ms": 655.5999999046326,
+            "dom_layout_ms": 655.7000000476837,
+            "paragraphs": 0,
+            "height": 1706180.5,
+            "operation_ms": 718.5999999046326,
+            "navigation_ms": 743.7999999523163
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 593.5,
+            "dom_layout_ms": 593.5,
+            "paragraphs": 0,
+            "height": 2123461,
+            "operation_ms": 609.5999999046326,
+            "navigation_ms": 1516.7000000476837
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.10000014305114746,
+            "layout_ms": 648.7000000476837,
+            "dom_layout_ms": 648.8000001907349,
+            "paragraphs": 0,
+            "height": 1706180.5,
+            "operation_ms": 710.9000000953674,
+            "navigation_ms": 738.3000001907349
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 590.7000000476837,
+            "dom_layout_ms": 590.7000000476837,
+            "paragraphs": 0,
+            "height": 2123461,
+            "operation_ms": 603.6999998092651,
+            "navigation_ms": 1502.5
+          }
+        }
+      ],
+      "after": [
+        {
+          "open": {
+            "insert_ms": 0.10000014305114746,
+            "layout_ms": 642.0999999046326,
+            "dom_layout_ms": 642.2000000476837,
+            "paragraphs": 0,
+            "height": 1706180.5,
+            "operation_ms": 691.2000000476837,
+            "navigation_ms": 715.7000000476837
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 588.7000000476837,
+            "dom_layout_ms": 588.7000000476837,
+            "paragraphs": 0,
+            "height": 2123461,
+            "operation_ms": 602,
+            "navigation_ms": 1480.7999999523163
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 621.7999999523163,
+            "dom_layout_ms": 621.8999998569489,
+            "paragraphs": 0,
+            "height": 1706180.5,
+            "operation_ms": 669.9000000953674,
+            "navigation_ms": 705.2000000476837
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 573.5,
+            "dom_layout_ms": 573.5,
+            "paragraphs": 0,
+            "height": 2123461,
+            "operation_ms": 587.7999999523163,
+            "navigation_ms": 1446.9000000953674
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.20000004768371582,
+            "layout_ms": 640.9000000953674,
+            "dom_layout_ms": 641.1000001430511,
+            "paragraphs": 0,
+            "height": 1706180.5,
+            "operation_ms": 696.7999999523163,
+            "navigation_ms": 727.7000000476837
+          },
+          "append": {
+            "insert_ms": 0,
+            "layout_ms": 576.7000000476837,
+            "dom_layout_ms": 576.7000000476837,
+            "paragraphs": 0,
+            "height": 2123461,
+            "operation_ms": 590.6000001430511,
+            "navigation_ms": 1484.1000001430511
+          }
+        }
+      ],
+      "open_medians": {
+        "before": {
+          "dom_layout_ms": 648.8,
+          "operation_ms": 710.9,
+          "navigation_ms": 738.3,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 641.1,
+          "operation_ms": 691.2,
+          "navigation_ms": 715.7,
+          "paragraphs": 0
+        }
+      },
+      "append_medians": {
+        "before": {
+          "dom_layout_ms": 590.7,
+          "operation_ms": 603.7,
+          "navigation_ms": 1502.5,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 576.7,
+          "operation_ms": 590.6,
+          "navigation_ms": 1480.8,
+          "paragraphs": 0
+        }
+      }
+    },
+    "short_lines_1mib": {
+      "bytes": 1048576,
+      "before": [
+        {
+          "open": {
+            "insert_ms": 0.20000004768371582,
+            "layout_ms": 723.7999999523163,
+            "dom_layout_ms": 724,
+            "paragraphs": 0,
+            "height": 10223644,
+            "operation_ms": 810.7999999523163,
+            "navigation_ms": 835.2999999523163
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 844.9000000953674,
+            "dom_layout_ms": 844.9000000953674,
+            "paragraphs": 0,
+            "height": 10223644,
+            "operation_ms": 937.4000000953674,
+            "navigation_ms": 964
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 708.1999998092651,
+            "dom_layout_ms": 708.1999998092651,
+            "paragraphs": 0,
+            "height": 10223644,
+            "operation_ms": 794.3999998569489,
+            "navigation_ms": 818
+          }
+        }
+      ],
+      "after": [
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 713.7999999523163,
+            "dom_layout_ms": 713.8999998569489,
+            "paragraphs": 0,
+            "height": 10223644,
+            "operation_ms": 797.7000000476837,
+            "navigation_ms": 821.7000000476837
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0.09999990463256836,
+            "layout_ms": 714,
+            "dom_layout_ms": 714.0999999046326,
+            "paragraphs": 0,
+            "height": 10223644,
+            "operation_ms": 797.1000001430511,
+            "navigation_ms": 823.4000000953674
+          }
+        },
+        {
+          "open": {
+            "insert_ms": 0,
+            "layout_ms": 724.5999999046326,
+            "dom_layout_ms": 724.5999999046326,
+            "paragraphs": 0,
+            "height": 10223644,
+            "operation_ms": 810.2000000476837,
+            "navigation_ms": 833.9000000953674
+          }
+        }
+      ],
+      "open_medians": {
+        "before": {
+          "dom_layout_ms": 724,
+          "operation_ms": 810.8,
+          "navigation_ms": 835.3,
+          "paragraphs": 0
+        },
+        "after": {
+          "dom_layout_ms": 714.1,
+          "operation_ms": 797.7,
+          "navigation_ms": 823.4,
+          "paragraphs": 0
+        }
+      }
+    }
+  }
+}

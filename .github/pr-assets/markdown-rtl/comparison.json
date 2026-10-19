@@ -1,0 +1,190 @@
+{
+  "baseline": "8f60e20ea0b3defffc2ae89dd49bb36c9f09a5ff",
+  "viewport": {
+    "width": 412,
+    "height": 560
+  },
+  "renderer": "Desktop headless Chromium, shipped viewer assets; not native Android UI.",
+  "samples": {
+    "arabic": {
+      "before": {
+        "text": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\n\n\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\nconst count = 1;\nconsole.log(\"مرحبا\", count);\n\n\n\n\nالعنصر\nالقيمة\n\n\n\nعدد الملاحظات\n2\n\n\n",
+        "selected": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\n\nconst count = 1;\nconsole.log(\"مرحبا\", count);\nالعنصر\tالقيمة\nعدد الملاحظات\t2",
+        "direction": "ltr",
+        "elementCount": 20,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "4px",
+          "0px"
+        ],
+        "quoteBorderColor": "rgb(208, 215, 222)",
+        "contentHeight": 486.09375
+      },
+      "after": {
+        "text": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\n\n\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\nconst count = 1;\nconsole.log(\"مرحبا\", count);\n\n\n\n\nالعنصر\nالقيمة\n\n\n\nعدد الملاحظات\n2\n\n\n",
+        "selected": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\n\nconst count = 1;\nconsole.log(\"مرحبا\", count);\nالعنصر\tالقيمة\nعدد الملاحظات\t2",
+        "direction": "rtl",
+        "elementCount": 20,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "0px",
+          "4px"
+        ],
+        "quoteBorderColor": "rgb(208, 215, 222)",
+        "contentHeight": 486.09375
+      },
+      "pixelIdentical": false
+    },
+    "arabic-dark": {
+      "before": {
+        "text": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\n\n\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\nconst count = 1;\nconsole.log(\"مرحبا\", count);\n\n\n\n\nالعنصر\nالقيمة\n\n\n\nعدد الملاحظات\n2\n\n\n",
+        "selected": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\n\nconst count = 1;\nconsole.log(\"مرحبا\", count);\nالعنصر\tالقيمة\nعدد الملاحظات\t2",
+        "direction": "ltr",
+        "elementCount": 20,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "4px",
+          "0px"
+        ],
+        "quoteBorderColor": "rgb(48, 54, 61)",
+        "contentHeight": 486.09375
+      },
+      "after": {
+        "text": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\n\n\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\nconst count = 1;\nconsole.log(\"مرحبا\", count);\n\n\n\n\nالعنصر\nالقيمة\n\n\n\nعدد الملاحظات\n2\n\n\n",
+        "selected": "ملاحظات القراءة\n(2026) العربية من اليمين إلى اليسار.\n\nالعنصر الأول في القائمة\nالعنصر الثاني في القائمة\nهذا اقتباس عربي، وحدّه يتبع اتجاه القراءة.\n\nنستخدم count += 1 داخل النص دون تغيير اتجاه الكود.\n\nconst count = 1;\nconsole.log(\"مرحبا\", count);\nالعنصر\tالقيمة\nعدد الملاحظات\t2",
+        "direction": "rtl",
+        "elementCount": 20,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "0px",
+          "4px"
+        ],
+        "quoteBorderColor": "rgb(48, 54, 61)",
+        "contentHeight": 486.09375
+      },
+      "pixelIdentical": false
+    },
+    "code-first": {
+      "before": {
+        "text": "const count = 1;\nconsole.log(count);\n\nالعربية بعد مثال برمجي\nهذه الفقرة تُقرأ من اليمين إلى اليسار.\n\nلا يختار المثال البرمجي اتجاه المستند.\n\nنص مع count += 1 ضمن الفقرة.\n",
+        "selected": "const count = 1;\nconsole.log(count);\nالعربية بعد مثال برمجي\nهذه الفقرة تُقرأ من اليمين إلى اليسار.\n\nلا يختار المثال البرمجي اتجاه المستند.\n\nنص مع count += 1 ضمن الفقرة.",
+        "direction": "ltr",
+        "elementCount": 8,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "4px",
+          "0px"
+        ],
+        "quoteBorderColor": "rgb(208, 215, 222)",
+        "contentHeight": 388.09375
+      },
+      "after": {
+        "text": "const count = 1;\nconsole.log(count);\n\nالعربية بعد مثال برمجي\nهذه الفقرة تُقرأ من اليمين إلى اليسار.\n\nلا يختار المثال البرمجي اتجاه المستند.\n\nنص مع count += 1 ضمن الفقرة.\n",
+        "selected": "const count = 1;\nconsole.log(count);\nالعربية بعد مثال برمجي\nهذه الفقرة تُقرأ من اليمين إلى اليسار.\n\nلا يختار المثال البرمجي اتجاه المستند.\n\nنص مع count += 1 ضمن الفقرة.",
+        "direction": "rtl",
+        "elementCount": 8,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "0px",
+          "4px"
+        ],
+        "quoteBorderColor": "rgb(208, 215, 222)",
+        "contentHeight": 388.09375
+      },
+      "pixelIdentical": false
+    },
+    "english": {
+      "before": {
+        "text": "Reading notes\nEnglish prose stays left to right.\n\nFirst item\nSecond item\n\n\nThe quote border stays on the left.\n\nUse count += 1 inside a sentence.\nconst count = 1;\nconsole.log(count);\n\n\n\n\nItem\nValue\n\n\n\nNotes\n2\n\n\n",
+        "selected": "Reading notes\nEnglish prose stays left to right.\n\nFirst item\nSecond item\nThe quote border stays on the left.\n\nUse count += 1 inside a sentence.\n\nconst count = 1;\nconsole.log(count);\nItem\tValue\nNotes\t2",
+        "direction": "ltr",
+        "elementCount": 20,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "4px",
+          "0px"
+        ],
+        "quoteBorderColor": "rgb(208, 215, 222)",
+        "contentHeight": 486.09375
+      },
+      "after": {
+        "text": "Reading notes\nEnglish prose stays left to right.\n\nFirst item\nSecond item\n\n\nThe quote border stays on the left.\n\nUse count += 1 inside a sentence.\nconst count = 1;\nconsole.log(count);\n\n\n\n\nItem\nValue\n\n\n\nNotes\n2\n\n\n",
+        "selected": "Reading notes\nEnglish prose stays left to right.\n\nFirst item\nSecond item\nThe quote border stays on the left.\n\nUse count += 1 inside a sentence.\n\nconst count = 1;\nconsole.log(count);\nItem\tValue\nNotes\t2",
+        "direction": "ltr",
+        "elementCount": 20,
+        "codeDirections": [
+          "ltr",
+          "ltr",
+          "ltr"
+        ],
+        "quoteBorder": [
+          "4px",
+          "0px"
+        ],
+        "quoteBorderColor": "rgb(208, 215, 222)",
+        "contentHeight": 486.09375
+      },
+      "pixelIdentical": true
+    },
+    "authored": {
+      "before": {
+        "text": "Authored direction\n\nنص باتجاه صريح.\nهذا نص مع قيمة ضمن اتجاه المؤلف.\n\n",
+        "selected": "Authored direction\nنص باتجاه صريح.\nهذا نص مع قيمة ضمن اتجاه المؤلف.",
+        "direction": "ltr",
+        "elementCount": 6,
+        "codeDirections": [
+          "rtl",
+          "rtl",
+          "rtl"
+        ],
+        "quoteBorder": null,
+        "quoteBorderColor": null,
+        "contentHeight": 250.09375
+      },
+      "after": {
+        "text": "Authored direction\n\nنص باتجاه صريح.\nهذا نص مع قيمة ضمن اتجاه المؤلف.\n\n",
+        "selected": "Authored direction\nنص باتجاه صريح.\nهذا نص مع قيمة ضمن اتجاه المؤلف.",
+        "direction": "ltr",
+        "elementCount": 6,
+        "codeDirections": [
+          "rtl",
+          "rtl",
+          "rtl"
+        ],
+        "quoteBorder": null,
+        "quoteBorderColor": null,
+        "contentHeight": 250.09375
+      },
+      "pixelIdentical": true
+    }
+  },
+  "browser": "153.0.8010.12"
+}
